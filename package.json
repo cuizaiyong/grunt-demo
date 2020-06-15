@@ -1,7 +1,7 @@
 {
-  "name": "grunt-demo",
+  "name": "cuvee-app",
   "version": "1.0.0",
-  "main": "lib/index.js",
+  "main": "index.js",
   "description": "A simple automated construction tool based on grunt.",
   "license": "MIT",
   "author": "cuiziayong <cuveecui@gmail.com>",
@@ -15,6 +15,10 @@
     "cuvee-app.js",
     "index.js"
   ],
+  "homepage": "https://github.com/cuizaiyong/grunt-demo",
+  "bugs": {
+    "url": "https://github.com/cuizaiyong/grunt-demo/issue"
+  },
   "scripts": {
     "clean": "grunt clear",
     "dev": "grunt develop",
