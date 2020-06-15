@@ -1,0 +1,52 @@
+{
+  "name": "grunt-demo",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "description": "A simple automated construction tool based on grunt.",
+  "license": "MIT",
+  "author": "cuiziayong <cuveecui@gmail.com>",
+  "keywords": [
+    "app",
+    "grunt",
+    "swig",
+    "babel"
+  ],
+  "files": [
+    "cuvee-app.js",
+    "index.js"
+  ],
+  "scripts": {
+    "clean": "grunt clear",
+    "dev": "grunt develop",
+    "build": "grunt build"
+  },
+  "bin": {
+    "cuvee-app": "bin/cuvee-app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "browser-sync": "^2.26.7",
+    "grunt": "^1.1.0",
+    "grunt-babel": "^8.0.0",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-htmlmin": "^3.1.0",
+    "grunt-contrib-imagemin": "^4.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-html-template": "^0.1.6",
+    "grunt-sass": "^3.1.0",
+    "load-grunt-tasks": "^5.1.0",
+    "sass": "^1.26.8",
+    "useref": "^1.4.3"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
