@@ -1,4 +1,3 @@
-// 实现这个项目的构建任务
 const fs = require('fs');
 const sass = require('sass');
 const loadGruntTasks = require('load-grunt-tasks');
